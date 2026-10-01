@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dewan Ambalan | SMAN 1 Martapura</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;color:#222;background:#f6f3ed;line-height:1.6}
+nav{position:fixed;top:0;width:100%;z-index:10;background:#17351fdd;backdrop-filter:blur(8px);display:flex;justify-content:space-between;align-items:center;padding:14px 7%}
+.logo{color:#fff;font-weight:800;font-size:18px}
+nav a{color:#fff;text-decoration:none;margin-left:22px;font-size:14px}
+.hero{min-height:620px;padding:150px 8% 90px;display:flex;align-items:center;background:linear-gradient(135deg,#17351f,#2d5b38);color:#fff}
+.hero-content{max-width:760px}
+.badge{display:inline-block;border:1px solid #ffffff66;border-radius:30px;padding:7px 15px;margin-bottom:20px;font-size:13px}
+h1{font-size:clamp(42px,7vw,76px);line-height:1.05;margin-bottom:20px}
+.hero p{font-size:18px;max-width:650px;color:#e6eee7}
+.btn{display:inline-block;margin-top:28px;background:#d6a84f;color:#1b2b1e;padding:12px 22px;border-radius:8px;text-decoration:none;font-weight:700}
+section{padding:80px 8%;max-width:1200px;margin:auto}
+.section-title{font-size:34px;color:#17351f;margin-bottom:10px}
+.section-sub{color:#666;margin-bottom:35px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:#fff;border-radius:14px;padding:25px;box-shadow:0 8px 25px #0000000d}
+.card h3{color:#17351f;margin-bottom:8px}
+.icon{font-size:30px;margin-bottom:10px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}
+.about-box{background:#17351f;color:#fff;padding:35px;border-radius:18px}
+.events{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.event{background:#fff;border-left:5px solid #d6a84f;padding:22px;border-radius:10px}
+.date{font-size:13px;color:#98711f;font-weight:bold}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.photo{height:190px;border-radius:12px;background:linear-gradient(135deg,#294f34,#78916d);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:bold}
+.contact{background:#17351f;color:#fff;max-width:none}
+.contact-inner{max-width:1200px;margin:auto}
+footer{text-align:center;padding:25px;background:#102518;color:#bfcbbf;font-size:13px}
+@media(max-width:750px){
+nav{padding:12px 5%} nav .links{display:none}
+.hero{padding:130px 7% 70px}.cards,.about,.events{grid-template-columns:1fr}
+.gallery{grid-template-columns:1fr 1fr}section{padding:60px 7%}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">⚜ DEWAN AMBALAN</div>
+  <div class="links">
+    <a href="#beranda">Beranda</a>
+    <a href="#profil">Profil</a>
+    <a href="#kegiatan">Kegiatan</a>
+    <a href="#dokumentasi">Dokumentasi</a>
+    <a href="#kontak">Kontak</a>
+  </div>
+</nav>
+
+<header class="hero" id="beranda">
+  <div class="hero-content">
+    <span class="badge">PRAMUKA • SMAN 1 MARTAPURA</span>
+    <h1>Temukan Cerita di Balik Setiap Langkah.</h1>
+    <p>Website informasi dan dokumentasi Dewan Ambalan SMA Negeri 1 Martapura. Tempat untuk berbagi kegiatan, informasi, dan kenangan kepramukaan.</p>
+    <a class="btn" href="#kegiatan">Lihat Kegiatan →</a>
+  </div>
+</header>
+
+<section id="profil">
+  <div class="about">
+    <div>
+      <h2 class="section-title">Tentang Kami</h2>
+      <p class="section-sub">Dewan Ambalan SMA Negeri 1 Martapura</p>
+      <p>Kami merupakan bagian dari kegiatan kepramukaan di SMA Negeri 1 Martapura yang menjadi wadah bagi anggota untuk belajar kepemimpinan, kerja sama, tanggung jawab, dan pengalaman baru.</p>
+    </div>
+    <div class="about-box">
+      <h3>⚜️ Salam Pramuka!</h3>
+      <p style="margin-top:10px">Bukan sekadar kegiatan, tetapi tempat untuk tumbuh, belajar, dan menciptakan kenangan bersama.</p>
+    </div>
+  </div>
+</section>
+
+<section id="kegiatan">
+  <h2 class="section-title">Kegiatan Terbaru</h2>
+  <p class="section-sub">Informasi kegiatan dan agenda Dewan Ambalan.</p>
+  <div class="events">
+    <div class="event"><div class="date">AGENDA</div><h3>Latihan Rutin</h3><p>Kegiatan latihan kepramukaan dan pengembangan keterampilan anggota.</p></div>
+    <div class="event"><div class="date">KEGIATAN</div><h3>Perkemahan</h3><p>Kegiatan yang dirancang untuk membangun kemandirian, kekompakan, dan pengalaman.</p></div>
+    <div class="event"><div class="date">INFORMASI</div><h3>Seleksi Ambalan</h3><p>Informasi mengenai tahapan dan ketentuan seleksi anggota.</p></div>
+    <div class="event"><div class="date">DOKUMENTASI</div><h3>Arsip Kegiatan</h3><p>Kumpulan dokumentasi kegiatan yang telah dilaksanakan.</p></div>
+  </div>
+</section>
+
+<section id="dokumentasi">
+  <h2 class="section-title">Dokumentasi</h2>
+  <p class="section-sub">Beberapa contoh tempat untuk menampilkan foto kegiatan.</p>
+  <div class="gallery">
+    <div class="photo">FOTO KEGIATAN 01</div>
+    <div class="photo">FOTO KEGIATAN 02</div>
+    <div class="photo">FOTO KEGIATAN 03</div>
+    <div class="photo">FOTO KEGIATAN 04</div>
+    <div class="photo">FOTO KEGIATAN 05</div>
+    <div class="photo">FOTO KEGIATAN 06</div>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-title">Kenapa Website Ini Dibuat?</h2>
+  <div class="cards">
+    <div class="card"><div class="icon">📢</div><h3>Informasi</h3><p>Memudahkan anggota mendapatkan informasi kegiatan dan pengumuman.</p></div>
+    <div class="card"><div class="icon">📸</div><h3>Dokumentasi</h3><p>Menyimpan dan menampilkan perjalanan kegiatan kepramukaan.</p></div>
+    <div class="card"><div class="icon">🤝</div><h3>Publikasi</h3><p>Memperkenalkan kegiatan Pramuka sekolah kepada warga sekolah dan masyarakat.</p></div>
+  </div>
+</section>
+
+<section class="contact" id="kontak">
+  <div class="contact-inner">
+    <h2>Hubungi Kami</h2>
+    <p style="margin-top:8px">Dewan Ambalan SMA Negeri 1 Martapura</p>
+    <p style="margin-top:10px">Instagram • WhatsApp • Email</p>
+  </div>
+</section>
+
+<footer>© 2026 Dewan Ambalan SMA Negeri 1 Martapura • Website Prototype</footer>
+
+</body>
+</html>
